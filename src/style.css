@@ -112,3 +112,13 @@ h1{
     font-weight: bold;
 }
 
+#footer p{
+    display: inline;
+    font-size: 0.9em;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right;
+}
