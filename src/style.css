@@ -1,5 +1,5 @@
 body{
-    padding : 4em;
+    padding : 70px;
     font-family: sans-serif;
 }
 nav{
@@ -13,9 +13,8 @@ ul{
 }
 li{
     display: inline;
-   
-    padding:2em;
-    padding-bottom: 0.5em;
+    padding:18px;
+    padding-bottom: 50px;
     padding-top: 0em;
  
 }
@@ -25,38 +24,62 @@ h1{
 #site-logo{
     margin: 0px;
     padding: 0px;
-    font-size: 1.2em;
+    font-size: 18px;
+    padding-left: 20px;
 
 }
 
 #banner{
-    width:100%;
-    padding-top:2em;
-    padding-bottom: 3em;
-    padding-left: 1em;
-    margin-top : 2em;
-    margin-bottom: 2em;
+    width: auto;
+    padding-top:20px;
+    padding-bottom: 39px;
+    padding-left: 20px;
+    margin-top : 20px;
+    margin-bottom: 20px;
     background-color: #EEEEEE;
 }
 
 #banner-text{
     width: 25%;
-    margin-bottom: 2em;
+    margin-bottom: 20px;
     
 }
 
-#headings{
+.headings{
     padding: 1em 2em 1em 1em;
     display: flex;
     width: 100%;
+    text-align: center;
 
 }
-.heading{
+.heading1{
     background-color: white;
-    width: 33%;
+    flex: 33%;
     float: left;
 }
-
+.heading2{
+    background-color: white;
+    flex: 33%;
+    float: left;
+}
+.heading3{
+    background-color: white;
+    flex: 33%;
+    float: left;
+}
+@media (max-width: 800px) {
+    body{
+        max-width: 100vw;
+        padding:30px;
+        overflow-x: hidden;
+    }
+    .headings {
+      flex-direction: column;
+    }
+    .heading1{
+        padding :20px;
+    }
+  }
 .box{
     background-color: #EEEEEE;
     padding: 30% 20% 10% 20%;
@@ -66,7 +89,7 @@ h1{
 }
 .head{
     font-size: 1em;
-    text-align: center;
+    
     padding-top: 5%;
     font-weight: bold;
 }
@@ -80,11 +103,13 @@ h1{
 
 }
 .head-link{
-    text-align: center;
-    padding-top: 5%;
+    
+    padding-top: 1%;
 }
 
-#Subscribe{
+
+
+.Subscribe{
     width:100%;
     padding-top:1.8em;
     padding-bottom: 1.8em;
@@ -94,18 +119,18 @@ h1{
     background-color: #EEEEEE;
     text-align: center;
 }
-#sub-text{
+.sub-text{
     display: inline;
     font-size: 1.5em;
     font-weight: bold;
 }
-#Text-box{
+.Text-box{
     width: 18em;
     margin-left:1em;
     margin-right: 1em;
     height: 2em;
 }
-#button2{
+.button2{
     width: 14em;
     height: 2em;
     background-color: #288ACF;
@@ -115,6 +140,41 @@ h1{
     color:white;
     font-size: 1em;
     font-weight: bold;
+}
+@media screen and (max-width:670px) {
+    body{
+       
+        overflow-x: hidden !important;
+    }
+    nav{
+        display: block;
+        float: right;
+        padding: 5px;
+    }
+    .banner{
+        width: auto;
+    }
+    .Subscribe{
+        text-align: center;
+        display: block;
+    }
+ .sub-text{
+     display: block;
+     margin-bottom: 20px;
+ }
+ .Text-box{
+     display: block;
+     margin-bottom: 20px;
+     overflow: hidden;
+ }
+ .button2{
+     display: block;
+     margin: auto;
+     margin-top: 20px;
+     margin-bottom: 20px;
+
+ }
+    
 }
 
 #footer p{
