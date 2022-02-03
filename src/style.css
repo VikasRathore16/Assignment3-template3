@@ -3,18 +3,23 @@ body{
 }
 ul{
     list-style-type: none;
-    display: block;
+    overflow: hidden;
+    margin: 0px;
 }
 li{
     display: inline;
     float :right;
     padding:2em;
+    padding-bottom: 0.5em;
     padding-top: 0em;
  
 }
+h1{
+    margin: 0px;
+}
 #site-logo{
-    display: block;
-    padding-top: 1em;
+    margin: 0px;
+    padding: 0px;
     font-size: 1.2em;
 
 }
