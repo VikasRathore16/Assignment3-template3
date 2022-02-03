@@ -2,14 +2,18 @@ body{
     padding : 4em;
     font-family: sans-serif;
 }
+nav{
+    float: right;
+}
 ul{
     list-style-type: none;
     overflow: hidden;
     margin: 0px;
+ 
 }
 li{
     display: inline;
-    float :right;
+   
     padding:2em;
     padding-bottom: 0.5em;
     padding-top: 0em;
@@ -47,25 +51,26 @@ h1{
     width: 100%;
 
 }
-#heading-1{
+.heading{
     background-color: white;
     width: 33%;
+    float: left;
 }
 
-#box1{
+.box{
     background-color: #EEEEEE;
     padding: 30% 20% 10% 20%;
     margin: 10%;
     margin-top: 0;
     margin-bottom: 0;
 }
-#head1{
+.head{
     font-size: 1em;
     text-align: center;
     padding-top: 5%;
     font-weight: bold;
 }
-#head-para1{
+.head-para{
     text-align: justify;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -74,7 +79,7 @@ h1{
     
 
 }
-#head-link1{
+.head-link{
     text-align: center;
     padding-top: 5%;
 }
